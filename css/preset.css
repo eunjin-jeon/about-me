@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {display: flex;}
+.justify-center {justify-content: center;}
+.align-center {align-items: center;}
+.column {flex-direction: column;}
+.space-between {justify-content: space-between;}
+.space-around {justify-content: space-around;}
+.flex-end {justify-content: flex-end; padding-top: 4vh; padding-right: 4vw;}
+.flex-wrap {flex-wrap: wrap;}

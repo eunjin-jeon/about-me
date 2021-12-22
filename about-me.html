@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
     <style>
-       
-      
+
+
 
     </style>
 </head>
+
 <body>
     <div id="container">
         <div id="main">
@@ -31,56 +33,61 @@
                 </ul>
             </div>
         </div>
-        <div class="main-text"> <p> This is my portfolio.</p> </div>
-    
+        <div class="main-text">
+            <p> This is my portfolio.</p>
+        </div>
+
         <div id="eye">
             <div class="eye-bg">EYES</div>
             <div class="eye-text">EYES</div>
-            <div id="text"><div class="eye-sub-text"></div></div>
+            <div id="text">
+                <div class="eye-sub-text"></div>
+            </div>
             <img src="img/images/Untitled-1_02.png" alt="">
         </div>
-       
+
 
         <div id="film">
             <div class="film-con flex">
-                
+
                 <div class="film-left">
                     <img src="./img/basterds.jfif" alt="">
                     <img src="./img/whiteswan.jfif" alt="">
                 </div>
-                
+
                 <div class="film-right">
                     <div class="flim-text">
                         <p>MY FAVOURITE ONE IS WATCHING FILM. <br>
                             FILM IS THE LIFE, THE LIFE IS FILM. </p>
                     </div>
-                    
+
                     <div class="portfolio-img flex column">
                         <img src="./img/portfolio-img.jpg" alt="">
                         <a href="#"><span> &nbsp; &nbsp; &nbsp; visit portfolio ></span></a>
                     </div>
                 </div>
-                
-            </div>
-            
 
-            
+            </div>
+
+
+
         </div>
     </div>
-    
+
     <script type="text/javascript">
-        var i = 0, text;
+        var i = 0,
+            text;
         text = "What I love to watch..."
 
         function typing() {
-            if(i < text.length){
+            if (i < text.length) {
                 document.getElementById("text").innerHTML += text.charAt(i);
                 i++;
-                setTimeout(typing,80);
+                setTimeout(typing, 80);
             }
         }
         typing();
-
     </script>
 </body>
+
 </html>
